@@ -6,4 +6,4 @@ RUN wget https://github.com/Kitware/CMake/releases/download/v3.17.2/cmake-3.17.2
       && mkdir /usr/bin/cmake \
       && /tmp/cmake-install.sh --skip-license --prefix=/usr/bin/cmake \
       && rm /tmp/cmake-install.sh \
-      && chmod +x /usr/bin/cmake
+      && chmod u+x /usr/bin/cmake
